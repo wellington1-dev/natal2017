@@ -1,0 +1,56 @@
+@mixin border-radius($radius) {
+	-webkit-border-radius: 	$radius;
+	   -moz-border-radius: 	$radius;
+		-ms-border-radius: 	$radius;
+			border-radius: 	$radius;
+}
+
+@mixin form-control() {
+	background-color: #fff;
+	border: 1px solid #cececd;
+	font-size: 0.6em;
+
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	padding: 4px 8px 4px 8px;
+	margin-bottom: 5px;
+	width: 100%;
+	display: inline;
+	float: left;
+}
+
+@mixin placeholder {
+	&::-webkit-input-placeholder {@content}
+	&:-moz-placeholder           {@content}
+	&::-moz-placeholder          {@content}
+	&:-ms-input-placeholder      {@content}
+}
+
+@mixin boxshadow($top: 1px, $hor:1px, $op:1px, $color: #000){
+	-webkit-box-shadow: $top $hor $op $color;
+    box-shadow: $top $hor $op $color;
+}
+
+@mixin title($color:$purple, $font: $especial){
+	font-family: $font;
+	color: $color;
+	line-height: 1;
+}
+
+@mixin text-none(){
+	/* opera */display: inline-block;
+	/* opera */line-height: 0;
+	/* ie */text-indent: -99999px;
+	overflow:hidden;
+	text-align:left;
+}
+
+@mixin removeselect(){
+
+	-webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+	-moz-appearance: none; /* Remove estilo padrão do FireFox */
+	appearance: none; /* Remove estilo padrão do FireFox*/
+}

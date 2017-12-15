@@ -1,0 +1,78 @@
+#nav-toggle {
+
+    display: none;
+    cursor: pointer;
+    padding: 0px;
+    margin: 0;
+    float: right;
+    z-index: 9;
+    position: fixed;
+    margin-top: 25px;
+    right: 50px;
+}
+
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+
+    cursor: pointer;
+    border-radius: 1px;
+    height: 5px;
+    width: 35px;
+    background: #D88F02;
+    position: absolute;
+    display: block;
+    content: '';
+    @include border-radius(20px);
+}
+
+#nav-toggle span:before {
+
+    top: -10px;
+}
+
+#nav-toggle span:after {
+
+    bottom: -10px;
+}
+
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
+
+#nav-toggle.active span {
+
+    background-color: transparent;
+}
+
+#nav-toggle.active span:before, #nav-toggle.active span:after {
+
+    top: 0;
+}
+
+#nav-toggle.active span:before {
+
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#nav-toggle.active span:after {
+
+    -moz-transform: translateY(-10px) rotate(-45deg);
+    -webkit-transform: translateY(-10px) rotate(-45deg);
+    -o-transform: translateY(-10px) rotate(-45deg);
+    -ms-transform: translateY(-10px) rotate(-45deg);
+    transform: translateY(-10px) rotate(-45deg);
+    top: 10px;
+}
+
+.close-menu {
+
+    display: none;
+}

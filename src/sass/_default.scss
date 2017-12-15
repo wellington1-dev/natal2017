@@ -1,0 +1,108 @@
+// https://codepen.io/zerospree/pen/Koedp?page=1&
+
+body {
+
+    background: url("../../src/images/fundo.png") no-repeat center top;
+    font-family: $font_primary;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.body {
+
+    position: relative;
+    border: 1px solid red;
+    width: 700px;
+    height: 400px;
+    left: 126px;
+    right: 0;
+    top: 122px;
+}
+
+
+.arm {
+
+    position: absolute;
+    background: inherit;
+    height: 210px;
+    width: 200px;
+    border-radius: 0 175px 0 0;
+    right: -40px;
+    top: -3px;
+    background: red;
+
+    &.left {
+
+        right: auto;
+        left: 0;
+        top: 185px;
+        transform: rotate(175deg);
+        -webkit-transform: rotate(175deg);
+        -ms-transform: rotate(175deg);
+        animation: shakeHand 4s infinite;
+        -webkit-animation: shakeHand 4s infinite;
+
+        &:before {
+
+            background: #FFF1C8;
+        }
+    }
+
+    &:before {
+
+        content: '';
+        position: absolute;
+        width: 108px;
+        height: 150px;
+        border-radius: 0 110px 0 0;
+        top: 61px;
+        left: -5px;
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(33deg);
+    }
+
+}
+
+.hand {
+
+    content: '';
+    position: absolute;
+    width: 95px;
+    height: 135px;
+    background: #F9CE1D;
+    border-radius: 0 0 55px 55px;
+    top: 198px;
+    left: 105px;
+
+
+    &:after {
+
+        width: 35px;
+        height: 55px;
+        position: absolute;
+        content: "";
+        background-color: #F9CE1D;
+        border-radius: 118%;
+        transform: rotate(55deg);
+        -webkit-transform: rotate(37deg);
+        -ms-transform: rotate(55deg);
+        top: 30px;
+        left: -20px;
+    }
+
+    &:before {
+
+        background-color: #fff;
+        width: 107px;
+        height: 30px;
+        content: "";
+        left: -6px;
+        position: absolute;
+        border-radius: 10px;
+    }
+}
