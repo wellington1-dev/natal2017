@@ -14,7 +14,7 @@ var fs = require('fs');
 var FAVICON_DATA_FILE = 'faviconData.json';
 var imageop = require('gulp-image-optimization');
 var concat   = require('gulp-concat');
-var font2css = require('gulp-font2css').default;
+// var font2css = require('gulp-font2css').default;
 // image
 //var tinypng = require('gulp-tinypng-compress');
 
@@ -151,7 +151,7 @@ gulp.task('sprite-generator', function generateSpritesheets () {
 
 gulp.task('browser-sync', function() {
     browserSync.init({
-        proxy: "http://192.168.1.36/sites/natal2017",
+        proxy: "http://localhost/natal2017",
         notify: false
     });
 });
