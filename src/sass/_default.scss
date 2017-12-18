@@ -190,7 +190,6 @@ body {
         left: -20px;
         top: 59px;
         content: "";
-        border: 1px solid green;
         border-radius: 100%;
         background-color: #EF9A9A;
         z-index: -1;
@@ -204,7 +203,6 @@ body {
         right: -20px;
         top: 59px;
         content: "";
-        border: 1px solid green;
         border-radius: 100%;
         background-color: #EF9A9A;
         z-index: -1;
@@ -421,12 +419,10 @@ body {
 }
 
 .snow-container {
-    position: absolute;
     height: 100%;
     width: 100%;
     max-width: 100%;
     top: 0;
-    overflow: hidden;
     z-index: 2;
     pointer-events: none;
 }
