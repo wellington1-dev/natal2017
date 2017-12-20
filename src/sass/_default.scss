@@ -16,9 +16,17 @@ body {
     position: relative;
     width: 700px;
     height: 500px;
-    left: 126px;
     right: 0;
     top: 122px;
+    display: inline-block;
+}
+
+.cena {
+
+    border: 1px solid orange;
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
 }
 
 
@@ -418,75 +426,161 @@ body {
     }
 }
 
-.snow-container {
-    height: 100%;
-    width: 100%;
-    max-width: 100%;
-    top: 0;
-    z-index: 2;
-    pointer-events: none;
-}
+.arvore {
 
-.snow {
-    display: block;
+    border: 1px solid blue;
     position: absolute;
-    z-index: 2;
-    top: 0;
     right: 0;
+    top: 0;
+    content: "";
+    width: 390px;
+    background: url(../../src/images/natal.png) no-repeat center top;
+    height: 570px;
+    background-size: 106%;
+}
+
+
+.triangle-arvore {
+
+    border: 1px solid red;
+    opacity: 0.7;
+}
+
+.triangle-arvore1 {
+
+    width: 160px;
+    height: 130px;
+    border-bottom: solid 160px #8BC34A;
+    border-left: solid 160px transparent;
+    border-right: solid 160px transparent;
+    position: absolute;
+    bottom: 85px;
+
+     &:after {
+
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        border: 1px solid red;
+        content: "";
+        position: absolute;
+        top: 85px;
+        left: -125px;
+    }
+
+     &:before {
+
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        border: 1px solid red;
+        content: "";
+        position: absolute;
+        top: -5px;
+        left: -120px;
+    }
+}
+
+.triangle-arvore2 {
+
+    width: 160px;
+    height: 130px;
+    border-bottom: solid 340px #8BC34A;
+    border-left: solid 160px transparent;
+    border-right: solid 160px transparent;
+    position: absolute;
+    bottom: 145px;
+
+    &:after {
+
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        border: 1px solid red;
+        content: "";
+        position: absolute;
+        top: 110px;
+        left: -50px;
+    }
+
+     &:before {
+
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        border: 1px solid red;
+        content: "";
+        position: absolute;
+        top: 250px;
+        right: -85px;
+    }
+}
+
+.triangle-arvore3 {
+
+    width: 160px;
+    height: 130px;
+    border-bottom: solid 265px #8BC34A;
+    border-left: solid 140px transparent;
+    border-right: solid 140px transparent;
+    position: absolute;
+    bottom: 280px;
+    left: 20px;
+
+    &:after {
+
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        border: 1px solid red;
+        content: "";
+        position: absolute;
+        top: 80px;
+        left: -70px;
+    }
+
+     &:before {
+
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        border: 1px solid red;
+        content: "";
+        position: absolute;
+        top: 125px;
+        right: -95px;
+    }
+}
+
+.presente {
+
+    border: 1px solid red;
+    width: 140px;
+    height: 60px;
+    position: absolute;
     bottom: 0;
+    left: 15px;
+}
+
+.tampa {
+
+    border: 1px solid red;
+    position: absolute;
+    left: -8px;
+    top: -26px;
+    height: 25px;
+    width: 155px;
+}
+
+.laco {
+
+    border: 1px solid blue;
+    width: 85%;
+    height: 30px;
+    position: absolute;
+    content: "";
+    bottom: 25px;
+    right: 0;
     left: 0;
-    pointer-events: none;
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-    -webkit-animation: snow linear infinite;
-    animation: snow linear infinite;
-}
-.snow.foreground {
-    background-image: url("https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-large-075d267ecbc42e3564c8ed43516dd557.png");
-    -webkit-animation-duration: 15s;
-    animation-duration: 15s;
-}
-.snow.foreground.layered {
-    -webkit-animation-delay: 7.5s;
-    animation-delay: 7.5s;
-}
-.snow.middleground {
-    background-image: image-url("https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-medium-0b8a5e0732315b68e1f54185be7a1ad9.png");
-    -webkit-animation-duration: 20s;
-    animation-duration: 20s;
-}
-.snow.middleground.layered {
-    -webkit-animation-delay: 10s;
-    animation-delay: 10s;
-}
-.snow.background {
-    background-image: image-url("https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-small-1ecd03b1fce08c24e064ff8c0a72c519.png");
-    -webkit-animation-duration: 30s;
-    animation-duration: 30s;
-}
-.snow.background.layered {
-    -webkit-animation-delay: 15s;
-    animation-delay: 15s;
-}
-
-@-webkit-keyframes snow {
-  0% {
-    -webkit-transform: translate3d(0, -100%, 0);
-            transform: translate3d(0, -100%, 0);
-  }
-  100% {
-    -webkit-transform: translate3d(15%, 100%, 0);
-            transform: translate3d(15%, 100%, 0);
-  }
-}
-
-@keyframes snow {
-  0% {
-    -webkit-transform: translate3d(0, -100%, 0);
-            transform: translate3d(0, -100%, 0);
-  }
-  100% {
-    -webkit-transform: translate3d(15%, 100%, 0);
-            transform: translate3d(15%, 100%, 0);
-  }
+    margin: 0 auto;
 }
