@@ -10,3 +10,5 @@ Abaixo você pode visualizar o resultado final.
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3g4pNs_JHw8" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
+[![Papai noel com CSS e HTML](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/embed/3g4pNs_JHw8 "Papai noel com CSS e HTML")
