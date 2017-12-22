@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Natal na Soma</title>
+	<title>Document</title>
 	<link rel="stylesheet" href="build/css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 </head>
 <body>
 	<div class="cena">
@@ -17,21 +18,50 @@
 				</div>
 			</div>
 			<div class="face">
-				<div class="wrapper-face"><span class="eye eye-left"></span><span class="eye eye-right"></span></div>
+				<div class="wrapper-face">
+					<div class="eye eye-left"></div>
+					<div class="eye eye-right"></div>
+				</div>
 				<div class="barba"></div>
 				<div class="mouth"></div>
 			</div>
-			<div class="belly"></div>
+			<div class="barriga"></div>
 			<div class="hand-right"></div>
 			<div class="arm-right"></div>
 			<div class="bag"></div>
 		</div>
 		<div class="arvore">
-			<div class="triangle-arvore"></div>
-			<div class="triangle-arvore triangle-arvore3"></div>
-			<div class="triangle-arvore triangle-arvore2"></div>
-			<div class="triangle-arvore triangle-arvore1"></div>
-			<div class="presente"><span class="tampa"><span class="laco"></span></span></div>
+			<div class="triangulo-arvore3">
+				<div class="shadow1"></div>
+			</div>
+			<div class="triangulo-arvore2">
+				<div class="shadow2"></div>
+			</div>
+			<div class="triangulo-arvore1"></div>
+			<div class="presente presente1">
+				<div class="tampa tampa1">
+					<div class="laco-1">
+						<div class="laco1"></div>
+						<div class="laco2"></div>
+					</div>
+				</div>
+			</div>
+			<div class="presente presente2">
+				<div class="tampa tampa2">
+					<div class="laco-2">
+						<div class="laco1"></div>
+						<div class="laco2"></div>
+					</div>
+				</div>
+			</div>
+			<div class="presente presente3">
+				<div class="tampa tampa3">
+					<div class="laco-3">
+						<div class="laco1"></div>
+						<div class="laco2"></div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </body>

@@ -151,7 +151,7 @@ gulp.task('sprite-generator', function generateSpritesheets () {
 
 gulp.task('browser-sync', function() {
     browserSync.init({
-        proxy: "http://localhost/sites/natal2017",
+        proxy: "http://localhost/natal",
         notify: false
     });
 });
