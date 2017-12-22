@@ -48,7 +48,7 @@ gulp.task('generate-favicon', function(done) {
   realFavicon.generateFavicon({
     masterPicture: 'src/favicon/logo.png',
     dest: 'favicon/images',
-    iconsPath: 'http://192.168.1.36/sites/natal2017/favicon/images',
+    iconsPath: 'http://localhost/natal2017/favicon/images',
     design: {
       ios: {
         pictureAspect: 'backgroundAndMargin',
@@ -151,7 +151,7 @@ gulp.task('sprite-generator', function generateSpritesheets () {
 
 gulp.task('browser-sync', function() {
     browserSync.init({
-        proxy: "http://localhost/natal",
+        proxy: "http://localhost/natal2017",
         notify: false
     });
 });

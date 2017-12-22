@@ -32,30 +32,5 @@ $(document).ready(function(){
 		event.preventDefault(event);
 	});
 
-	// scroll
-    $('body').on('click', '.menu-item-2' ,function() {
-        var offset = $('#sobre-o-gamma').offset();
-        $('html, body').animate({ scrollTop: offset.top }, 900);
-    });
-
-    $('body').on('click', '.menu-item-3' ,function() {
-        var offset = $('#sobre-o-curso').offset();
-        $('html, body').animate({ scrollTop: offset.top }, 900);
-    });
-
-    $('body').on('click', '.menu-item-4' ,function() {
-        var offset = $('#depoimentos').offset();
-        $('html, body').animate({ scrollTop: offset.top }, 900);
-    });
-
-    $('body').on('click', '.menu-item-5' ,function() {
-        var offset = $('#contato').offset();
-        $('html, body').animate({ scrollTop: offset.top }, 900);
-    });
-
-    $('body').on('click', '.call-to-action' ,function() {
-        var offset = $('#contato').offset();
-        $('html, body').animate({ scrollTop: offset.top }, 900);
-    });
 });
 
