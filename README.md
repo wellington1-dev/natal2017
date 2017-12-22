@@ -4,11 +4,8 @@ Papai noel com CSS e HTML
 
 Para visualizar acesse <a href="https://jamesrmoro.github.io/natal2017" target="_blank">https://jamesrmoro.github.io/natal2017/</a>
 
-Você pode coloborar enviando seu pull request com melhorias e animações.
+Você pode colaborar e enviar pull request com melhorias e animações. Eu ficarei muito feliz em saber que você colaborou :)
 
 Abaixo você pode visualizar o resultado final.
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3g4pNs_JHw8" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-
-[![Papai noel com CSS e HTML](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/embed/3g4pNs_JHw8 "Papai noel com CSS e HTML")
+[![Papai noel com CSS e HTML](https://jamesrmoro.github.io/natal2017/src/images/tela.png)](https://www.youtube.com/embed/3g4pNs_JHw8 "Papai noel com CSS e HTML")
