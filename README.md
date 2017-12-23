@@ -2,7 +2,7 @@
 
 Para visualizar acesse <a href="https://jamesrmoro.github.io/natal2017" target="_blank">https://jamesrmoro.github.io/natal2017/</a>
 
-Você pode colaborar e enviar pull request com melhorias e animações.
+Você pode colaborar e enviar seu pull request com melhorias e animações.
 
 Eu ficarei muito feliz em saber que você colaborou :)
 
